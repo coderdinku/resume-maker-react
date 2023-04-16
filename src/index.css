@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+header {
+  text-align: center;
+  background-color: white;
+  border-bottom: 1px solid black;
+  margin-bottom: 5px;
+}
+
+.resumeForm {
+  /* width: 45vw; */
+  border: 1px solid black;
+  padding: 5px;
+  height: 100vh;
+  overflow-y: scroll;
+  flex: 1 1 0;
+  overflow-x: hidden;
+  white-space: nowrap;
+}
+
+small {
+  display: block;
+}
+
+.inputHint {
+  font-size: 95%;
+  color: #444;
+}
+
+details > summary {
+  cursor: pointer;
+}
+
+output {
+  /* flex: 1 1 auto; */
+  width: 55vw;
+  overflow-y: auto;
+  transition: all .5s;
+}
+
+#resume {
+  margin: 0 auto;
+}
+
+.expanded {
+  width: 95vw;
+  /* overflow-x: hidden; */
+  box-shadow: -5px 0 100px 0px gray;
+}
+
+.compressed {
+  width: 5vw;
+  overflow-x: hidden;
+}
+
+.navButtons {
+    position: fixed;
+    /* top: 3px; */
+    bottom: 5px;
+    left: 5px;
+    font-weight: 600;
+}
+
+.p10 {
+    padding-right: 1rem;
+    padding-left: .6rem;
+}
+
+.biggerButtons button,.biggerButtons label {
+  height: 2.5rem;
+  padding: 1em;
+}
+
+.navButtons svg { vertical-align: text-top; }
+
+#jsonInput {
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  width: 1px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+fieldset {
+  margin: 0.5rem 0;
+}
+
+legend, .like-legend {
+    background-color: #000;
+    color: #fff;
+    padding: 3px 6px;
+}
+
+.like-legend { font-weight: 400; width: fit-content; }
+
+input {
+    margin: .4rem 0;
+    padding: 0.2rem;
+}
+
+.d-block {
+  display: block;
+}
+
+button {
+  padding: 5px;
+  margin: 5px;
+}
+
+
+.my-1rem {
+  margin: 1rem 0;
+}
+
+.my-2rem {
+  margin: 2rem 0;
+}
+
+.addMoreHr:after {
+  content: "Add More";
+}
+
+@media screen and (max-width: 811px) {
+  output {
+    width: 1vw;
+  }
+  .expanded {
+    width: 100vw;
+  }
+  #visually-hidden { display: none; }
+}
+

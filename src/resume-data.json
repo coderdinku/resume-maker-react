@@ -1,0 +1,85 @@
+{
+	"name": "Harsh Vardhan",
+	"tagline": "CEO and Software Engineer with knowledge of applied information theory including optimizing lossless compression schema of both the length-limited and adaptive variants.",
+	"photo": "http://www.magicalquote.com/wp-content/uploads/2015/07/Richard-Hendricks.jpg",
+
+	"contactInfo": [
+		{"email": "harshvardhan@gmail.com"},
+		{"phone": "(+91)9867543216"},
+		{"address": "San Francisco, CA"},
+		{"nationality": ""},
+		{"website": "harshwardhan.example.com"}
+	],
+
+	"sections": [
+		{
+			"title": "Experience",
+
+			"subsections": [
+				{
+					"subject": "Problem Setter",
+					"organization": "Doselect",
+					"description": [
+						"Problem setter at Doselect .",
+						"+ Build an algorithm for build if their music was violating copyright infringement laws",
+						"+ Successfully won Techcrunch Disrupt",
+						"+ Optimized an algorithm that holds the current world record for Weisman Scores"
+					],
+					"timeperiod": "Dec 2022 – Dec 2023",
+					"decorator": true
+				},
+				{
+					"subject": "SDE/Intern",
+					"organization": "XYZ",
+					"description": [
+						"Global movement of free coding clubs for young people.",
+						"+ Awarded 'Intern of the Month'"
+					],
+					"timeperiod": "July 2013 – Dec 2013",
+					"decorator": true
+				}
+			]
+		},
+
+		{
+			"title": "Projects",
+
+			"subsections": [
+				{
+					"subject": "Resume Maker",
+					"description": [
+						"+ Build resume maker ",
+						"+ Built by all women team of newbie programmers",
+						"+ Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
+					],
+					"timeperiod": "Aug 2016",
+					"decorator": true
+				}
+			]
+		},
+
+		{
+			"title": "Education",
+
+			"subsections": [
+				{
+					"subject": "Lovely Proffessional University",
+					"organization": "CSE",
+					"description": [
+						"+ GPA 8.0",
+						"+ DB1101 - Basic SQL",
+						"+ CS2011 - Java Introduction"
+					],
+					"decorator": true
+				}
+			]
+		}
+	],
+
+	"fancyProgressBars": [
+		{
+			"skillName": "Skills",
+			"bars": [{"Web Development: HTML, CSS, JS": "5/5"}, {"Compression: Mpeg, MP4, GIF": "4/5"}]
+		}
+	]
+}
